@@ -14,3 +14,5 @@ elif operator == "*":
 elif operator == "/":
     result = number_1 / number_2
     print(result)
+else:
+    print("This is not a valid operator!")
