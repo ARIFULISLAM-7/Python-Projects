@@ -21,7 +21,7 @@ count = 0
 while count < num_of_subjects:
 # prompt the user to enter the name of the course and the gpa grade
     course = input("Enter the name of the course: ")
-    grade = input("Enter the grade: ")
+    grade = input("Enter the letter grade: ")
 # convert the grade to uppercase to make it non-case sensitive
     grade = grade.upper() # It is a method to make uppercase
 # check if the grade is valid
